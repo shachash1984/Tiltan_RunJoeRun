@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: ec7403819ae90aa49b6010cdd65152da
+timeCreated: 1507718712
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Bloodthirsty
+  fontNames:
+  - Bloodthirsty
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

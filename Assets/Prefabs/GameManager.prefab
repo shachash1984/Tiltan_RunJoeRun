@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1708115188188816}
+  m_IsPrefabParent: 1
+--- !u!1 &1708115188188816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4397661593128216}
+  - component: {fileID: 114986355670898878}
+  - component: {fileID: 114221073096025710}
+  - component: {fileID: 114344158759921226}
+  - component: {fileID: 114119742806854018}
+  - component: {fileID: 114302239132843616}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4397661593128216
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708115188188816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114119742806854018
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708115188188816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb6294468d233c41ac786d5bccb9575, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114221073096025710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708115188188816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a45be1e957d14a34bbab038fe00a3ec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countdownText: {fileID: 0}
+  __countdownPanel: {fileID: 0}
+  _scoreText: {fileID: 0}
+  _distanceText: {fileID: 0}
+  _coinsText: {fileID: 0}
+  _redImage: {fileID: 0}
+  _hitPausePanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  _resultPanel: {fileID: 0}
+  _resultText: {fileID: 0}
+  _resultCloseButton: {fileID: 0}
+  _continuePanel: {fileID: 0}
+  _thankYouMessage: Thank You for your purchase!
+  _errorMessage: There has been an error during your purchase. \nPlease contact support
+    at shachash1984@gmail.com
+  _tutorialMessage: {fileID: 0}
+  _tutorialToggle: {fileID: 0}
+  _welcomeMessage: Welcome to Run Joe Run!
+  _useArrowsMessage: Press the Arrow Buttons on the sides of the screen to move sideways
+  _useJumpMessage: Press the Jump Button on the bottom of the screen to Jump and collect
+    coins
+  _becarefulMessage: 'Pretty easy right?
+
+    Good Luck!'
+  isTutorialSequencePlaying: 0
+--- !u!114 &114302239132843616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708115188188816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b45dc5cf32e1a1747b8d4ff6aeb19591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ADID: 1567950
+--- !u!114 &114344158759921226
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708115188188816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14249c4f009b2f54dbe7339751107e9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPaused: 0
+  playTutorial: 1
+--- !u!114 &114986355670898878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708115188188816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0782623a35d20240bef6c8451ab5a6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  segmentPool:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  prefabPool:
+  - {fileID: 1513781096633186, guid: ca2817f7464d4a54bad39f6294170270, type: 2}
+  - {fileID: 1543199472823562, guid: d57b0826ffe0ca04594adc12b5792d70, type: 2}
+  - {fileID: 1615213039929986, guid: c3ece684290cc0d498afa8086eb845cf, type: 2}
+  - {fileID: 1608094500859988, guid: b5bab90b4b013bf4399df4230cd60f5c, type: 2}
+  - {fileID: 1920930598083336, guid: 481a33174695d6e4a8d1c4cc48dcd1ca, type: 2}
+  - {fileID: 1781143441170448, guid: c165e978455e75144881864744b300db, type: 2}
+  - {fileID: 1907834459194914, guid: ada596884ebf6534faf3752531f9aeec, type: 2}
+  - {fileID: 1611187231868120, guid: a752cee8576eadd4ea42d5cbbf8da773, type: 2}
+  - {fileID: 1373666006749852, guid: fd4c9667a40fe8c46817713b89320ade, type: 2}
+  - {fileID: 1059533368202882, guid: 00f70ade678358442bdaf67b8cf933f9, type: 2}
+  currentSegment: {fileID: 0}
+  prevSegment: {fileID: 0}
+  tutorialSegments:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

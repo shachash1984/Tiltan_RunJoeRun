@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1940142601446340}
+  m_IsPrefabParent: 1
+--- !u!1 &1940142601446340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4339939585163434}
+  - component: {fileID: 114870310227221692}
+  - component: {fileID: 114723794305755568}
+  - component: {fileID: 114070189632237486}
+  m_Layer: 0
+  m_Name: MainMenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4339939585163434
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1940142601446340}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114070189632237486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1940142601446340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b45dc5cf32e1a1747b8d4ff6aeb19591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ADID: 1567950
+--- !u!114 &114723794305755568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1940142601446340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfb6294468d233c41ac786d5bccb9575, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114870310227221692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1940142601446340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35601a6ba24103a4bbfe980d30db2e47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _startButton: {fileID: 0}
+  _optionsButton: {fileID: 0}
+  _shopButton: {fileID: 0}
+  _creditsButton: {fileID: 0}
+  _shareButton: {fileID: 0}
+  _mainTextPanel: {fileID: 0}
+  _optionsPanel: {fileID: 0}
+  _creditsPanel: {fileID: 0}
+  _shopPanel: {fileID: 0}
+  _coin: {fileID: 0}
+  _loadingBar: {fileID: 0}
+  _percentText: {fileID: 0}
+  _highScoreText: {fileID: 0}
+  _highDistanceText: {fileID: 0}
+  _coinsText: {fileID: 0}
+  _shopCoinsText: {fileID: 0}
+  _SFXToggle: {fileID: 0}
+  _MusicToggle: {fileID: 0}
+  _TutorialToggle: {fileID: 0}
+  _soundManager: {fileID: 0}
+  _resultPanel: {fileID: 0}
+  _resultText: {fileID: 0}
+  _resultCloseButton: {fileID: 0}
+  _thankYouMessage: We Thank You for your purchase!
+  _errorMessage: There has been an error during your purchase. \nPlease contact support
+    at shachash1984@gmail.com
